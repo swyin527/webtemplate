@@ -1,0 +1,156 @@
+html { 
+  font-family: 'Titillium Web', sans-serif;}
+
+body {
+  background-color: #EADDCA;
+  margin: 0;
+}
+
+header {
+  background-color: rgb(40, 50, 78);
+  position: sticky;
+  width: 100%;
+  z-index: 10;
+  top:0;
+  }
+
+h1 {
+  color: #466995;
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #466995;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 30px;
+}
+
+h4 {
+  color: #466995;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase
+}
+
+p {
+  margin:0cm;
+  margin-bottom:.0001pt;
+  font-size:16px;
+  vertical-align:baseline;
+  }
+
+td {
+  width: 103.7pt;
+  padding: 0cm 5.4pt;
+  height: 42.05pt;
+  vertical-align: top;
+}
+
+.welcome {
+  background-color: #DBE9EE;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+.upload {
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+
+.function {
+  padding: 0cm 5.4pt; 
+  vertical-align: top; 
+  background-color: rgb(204, 204, 204);
+}
+
+#drop_zone {
+  text-align: center; 
+  border: 2px dotted rgb(171, 171, 171);
+  padding: 2cm;
+  margin: 2cm;
+  }
+
+.contact {position: relative;}
+
+footer {
+  background-color: #DBE9EE;
+  text-align: center;
+  position: relative;
+}
+
+.contacta {
+  font-family:  "Arial",sans-serif;
+  color:black;
+}
+
+.headerword {
+  color: rgb(239, 239, 239);
+}
+
+ * { 
+   box-sizing: border-box;
+}
+         
+h5{
+    text-align:center;
+    color: rgb(40, 50, 78);
+    }
+  
+/* styling background image */
+.login {
+    background-image: url(../asset/01_16x9.jpg);
+    min-height: 380px;
+    background-size: cover;
+}
+
+/* Styling the form container */
+.container {
+    position: absolute;
+    left: 28px;
+    top: 50px;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+}
+
+b {
+    color: rgb(40, 50, 78);
+    font-size:26px;
+    
+}
+
+/* Full-width input */
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0px;
+    border: 2px rgb(40, 50, 78);
+}
+  
+
+/* submit button */
+.button {
+    background-color: rgb(40, 50, 78);
+    color: rgb(239, 239, 239);
+    padding: 16px 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+  
+.button:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
